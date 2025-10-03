@@ -9,4 +9,4 @@ This includes a basic overview file and a placeholder script for potential smart
 - `plasma_info.md`: Basic info about Plasma and its mission
 - `starter.py`: Placeholder Python file for further development
 
-Ideal for contributors who want to start experimenting or sharing ideas with the Plasma community.
+

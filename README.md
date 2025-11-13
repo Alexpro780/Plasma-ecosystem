@@ -10,3 +10,14 @@ This includes a basic overview file and a placeholder script for potential smart
 - `starter.py`: Placeholder Python file for further development
 
 
+def main() -> None:
+    args = parse_args()
+
+    if args.show_log:
+        log = load_log()
+        print(summarize_log(log))
+        return
+
+    if not (args.network and args.obj_type and args.value):
+        interactive_mode()
+        return
